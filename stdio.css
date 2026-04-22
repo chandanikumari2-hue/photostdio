@@ -753,7 +753,7 @@ width:90%;
 
 .booking_section{
 position:relative;
-background:url("./image/weddingPose.png") center/cover no-repeat;
+background:url("weddingPose.png") center/cover no-repeat;
 height:400px;
 display:flex;
 align-items:center;
