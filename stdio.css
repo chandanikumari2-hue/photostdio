@@ -1,0 +1,2051 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pb-90{
+    padding-bottom: 7.6rem;
+}
+
+.pb-60{
+    padding-bottom: 4.4rem;
+}
+.pb-20{
+    padding-bottom: 2.4rem;
+}
+.pb-30{
+      padding-bottom: 3.4rem;
+}
+
+:root{
+--bg-light:#f8f5f0;
+--text-dark:#1a1a1a;
+--accent:#f05609;
+--footer:#111111;
+}
+
+
+
+
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color:#1a1a1a;
+
+
+}
+body{
+    padding-top: 0;
+}
+
+.navbar{
+    height:90px;
+    width:100%;
+   
+    position:fixed;
+    top:0px;
+  
+    
+   
+    border-radius:10px;
+/* glass effect */
+    background: rgba(255,255,255,0.6);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+
+border:1px solid rgba(255,255,255,0.4);
+box-shadow:0 8px 25px rgba(0,0,0,0.15);
+z-index:999;
+}
+.nav_para{
+      font-family: "Dancing Script", cursive;
+      font-size: 28px;
+      font-weight: 800;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+}
+.navbar-brand{
+    margin-left: 0;
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pb-90{
+    padding-bottom: 7.6rem;
+}
+
+.pb-60{
+    padding-bottom: 4.4rem;
+}
+.pb-20{
+    padding-bottom: 2.4rem;
+}
+.pb-30{
+      padding-bottom: 3.4rem;
+}
+
+:root{
+--bg-light:#f8f5f0;
+--text-dark:#1a1a1a;
+--accent:#f05609;
+--footer:#111111;
+}
+
+
+
+
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color:#1a1a1a;
+
+
+}
+body{
+    padding-top: 0;
+}
+
+.navbar{
+    height:90px;
+    width:100%;
+   
+    position:fixed;
+    top:0px;
+  
+    
+   
+    border-radius:10px;
+/* glass effect */
+    background: rgba(255,255,255,0.6);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+
+border:1px solid rgba(255,255,255,0.4);
+box-shadow:0 8px 25px rgba(0,0,0,0.15);
+z-index:999;
+}
+.nav_para{
+      font-family: "Dancing Script", cursive;
+      font-size: 28px;
+      font-weight: 800;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+}
+.navbar-brand{
+    margin-left: 0;
+    color: #f05609;
+
+}
+
+.navbar-brand img{
+    height: 100px;
+    width: 150px;
+}
+ .nav-icon{
+    height: 40px;
+   
+ }
+.container-fluid{
+  background: transparent;
+height:80px;
+box-shadow:none;
+}
+
+.nav-link{
+    margin: 1rem;
+   
+}
+ .buttan {
+    margin-right: 3rem;
+    padding: 16px;
+    
+ }
+
+.navbar-nav{
+    margin: auto;
+    text-align: center;
+     font-family: "Fanwood Text", serif;
+}
+.navbar-nav .nav-link{
+position: relative;
+color:#1a1a1a;;
+font-weight: 500;
+padding: 8px 15px;
+}
+
+.navbar-nav .nav-link::after{
+content:"";
+position:absolute;
+left:50%;
+bottom:0;
+width:0;
+height:3px;
+background:#f05609;
+transition:0.3s;
+transform:translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after{
+width:70%;
+background-color:#f05609;
+
+}
+.navbar-nav .nav-link:hover{
+    color: #f05609;
+}
+
+  @media (min-width: 992px) {
+  .navbar-nav {
+   
+    flex-direction: row;
+    
+  }
+   .nav-link {
+   
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+}
+
+
+/* slide */
+.slide_img img{
+ width: 100%;
+ height: 800px;
+ object-fit: cover;
+ position: relative;
+}
+.slide_img h1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+     text-align: center;
+     max-width:700px;
+margin:auto;
+           font-family: "Dancing Script", cursive;
+}
+.slide_img h4{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    font-size: 30px;
+     text-align: center;
+          font-family: "Cormorant Infant", serif;
+}
+@media (max-width:768px){
+    .slide_img img{
+      
+        height: 800px;
+        object-fit: cover;
+    }
+    
+}
+
+@media (max-width:1024px){
+
+.slide_img h1{
+    font-size:45px;
+    width:90%;
+    line-height:1.3;
+    top:33rem;
+}
+
+.slide_img h4{
+    font-size:24px;
+    width:95%;
+    top:38rem;
+}
+
+}
+
+/* section 1 */
+.photographer img{
+    height: 30rem;
+    width: 30rem;
+    
+    object-fit: cover;
+    object-position: top;
+   /*  filter: drop-shadow(1px 1px 20px gray); */
+   background-size: 100% 100%;
+   box-shadow: 20px 20px 10px rgb(172, 171, 171);
+   animation: slider 10s liner infinite;
+   
+}
+
+.photographer_text h1{
+    font-family:"DM Serif Display", serif;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 45px;
+}
+
+.photographer_text p{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 1rem;
+
+}
+
+/* section 1 responsive */
+@media (max-width:768px){
+
+.photographer img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+}
+
+}
+@media (max-width:1024px){
+
+.photographer{
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+.photographer img{
+    display:block;
+    margin:auto;
+}
+
+.photographer_text{
+    margin-top:2rem;
+    
+}
+
+}
+/* services */
+.services{
+background:#f8f5f0;
+}
+
+.service_heading{
+font-family:"DM Serif Display", serif;
+font-size: 43px;
+}
+.container h1::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+     margin: 8px auto 0;
+    margin-bottom: 15px; 
+    background-color: orangered;
+}
+.service_para{
+       font-family: "Fanwood Text", serif;
+       font-size: 25px;
+}
+.service_card{
+padding:30px;
+background:white;
+
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.4s;
+}
+
+.service_card i{
+font-size:40px;
+color:#f05609;
+margin-bottom:15px;
+}
+
+
+.service_card:hover i{
+transform:scale(1.2);
+transition:0.3s;
+}
+
+.service_card h3{
+font-size:22px;
+margin-bottom:10px;
+font-family:"DM Serif Display", serif;
+}
+.service_card p{
+    
+    font-family: "Cormorant Infant", serif;
+    font-size: 20px;
+}
+.service_card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* section 2 */
+/* section 2 */
+.gallery_text{
+    text-align: center;
+  
+}
+.gallery_text h1{
+     font-family:"DM Serif Display", serif;
+     font-size: 45px;
+}
+.gallery_text h3{
+     font-family: "Cormorant Infant", serif;
+}
+.gallery_text h1::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+     margin: 8px auto 0;
+    margin-bottom: 15px; 
+    background-color:orangered;
+}
+
+
+
+
+
+
+.card-box{
+position:relative;
+overflow:hidden;
+border-radius:10px;
+}
+
+.card-box img{
+width:100%;
+height:450px;
+object-fit:cover;
+display:block;
+
+}
+
+/* overlay curtain */
+.card-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+
+background:linear-gradient(135deg,
+rgba(243, 241, 240, 0.6),
+rgba(255, 68, 0, 0.6));
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+color:white;
+
+transform:scale(0) rotate(0deg);
+transform-origin: bottom left;
+
+transition:0.6s ease;
+}
+
+.card-box:hover .card-overlay{
+transform:scale(1) rotate(360deg);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.card-overlay h3{
+font-size:30px;
+margin-bottom:8px;
+transform:translateY(-20px);
+transition:0.5s;
+ font-family:"DM Serif Display", serif;
+}
+.card-overlay h4{
+transform:translateY(20px);
+transition:0.5s;
+   font-family:"DM Serif Display", serif;
+   margin-bottom: 8px;
+  font-size: 22px;
+}
+.card-overlay p{
+transform:translateY(20px);
+transition:0.5s;
+   font-family: "Cormorant Infant", serif;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+
+.card-box:hover h3,
+.card-box:hover p{
+transform:translateY(0);
+}
+
+@media (max-width:1024px){
+
+.card-overlay{
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+transform: scale(1) rotate(0deg);
+opacity:1;
+
+}
+
+}
+
+
+/* section 3 */
+.div_card{
+    padding-top: 0px;
+}
+
+.baground_img img{
+    width: 100%;
+    height:37rem;
+    object-fit: cover;
+}
+
+.baground_img{
+    position: relative;
+}
+
+.baground_img img{
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.card_text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(23, 22, 22);
+    text-align: center;
+    font-family:"DM Serif Display", serif;
+
+}
+
+.card_text h1{
+    font-size: 50px;
+    
+}
+.card_text h1::after{
+    content: "";
+    display: block;
+    width: 180px;
+    height: 4px;
+     margin: 8px auto 0;
+    margin-bottom: 15px; 
+    background-color: orangered;
+}
+.card1_icon{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+   
+    border: 2px solid rgb(227, 123, 12);
+     border-radius: 50%; 
+   transform: translate(-50%,-50%);
+     position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: #f8f5f0;
+   
+}
+.card1{
+    border: 2px solid black;
+      position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    /*  box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
+
+}
+
+.card1{
+    font-size: 20px;
+padding: 24px; 
+  box-shadow: 0px 2px 10px  rgb(113, 113, 113);
+  transition:0.4s;
+  border-radius: 10px;
+  padding-top: 30px;
+   font-family: "Fanwood Text", serif;
+}
+
+.card1:hover{
+transform: translate(-50%, -55%);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.card2_icon{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+   
+    border: 2px solid rgb(227, 123, 12);
+     border-radius: 50%; 
+   transform: translate(-50%,-50%);
+     position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: #f8f5f0;
+}
+.card2{
+    border: 2px solid black;
+      position: absolute;
+      transition:0.4s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.card2{
+    font-size: 20px;
+padding: 20px;
+ box-shadow: 0px 2px 10px  rgb(113, 113, 113);
+  border-radius: 10px;
+  padding-top: 30px;
+  
+   font-family: "Fanwood Text", serif;
+}
+
+.card2:hover{
+transform: translate(-50%, -55%);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.card3_icon{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+   
+    border: 2px solid rgb(227, 123, 12);
+     border-radius: 50%; 
+   transform: translate(-50%,-50%);
+     position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: #f8f5f0;
+}
+.card3{
+    border: 2px solid black;
+      position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    transition:0.4s;
+
+}
+
+.card3{
+    font-size: 20px;
+padding: 20px; 
+ box-shadow: 0px 2px 10px  rgb(113, 113, 113);
+  border-radius: 10px;
+  padding-top: 30px;
+   font-family: "Fanwood Text", serif;
+}
+
+.card3:hover{
+transform: translate(-50%, -55%);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card1:hover i,
+.card2:hover i,
+.card3:hover i{
+transform:scale(1.2);
+transition:0.3s;
+}
+/* ===== Tablet ===== */
+@media (max-width:1024px){
+
+.baground_img img{
+height:85rem;   /* image height bada di */
+}
+
+.card1{
+top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.card2{
+top:55%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.card3{
+top:80%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+}
+
+
+/* ===== Mobile ===== */
+@media (max-width:576px){
+
+.baground_img img{
+height:100rem;   /* mobile me aur height */
+}
+
+.card1{
+top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+}
+
+.card2{
+top:55%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+}
+
+.card3{
+top:80%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+}
+
+}
+
+/* section 6 */
+
+.booking_section{
+position:relative;
+background:url("./image/weddingPose.png") center/cover no-repeat;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.booking_overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+}
+
+.booking_content{
+position:relative;
+color:white;
+max-width:700px;
+}
+
+.booking_content h1{
+font-size:45px;
+font-family:"DM Serif Display", serif;
+}
+
+.booking_content p{
+font-size:20px;
+font-family:"Cormorant Infant", serif;
+margin:20px 0;
+}
+
+.book_btn{
+background: #f05609;
+color:white;
+border:none;
+padding:12px 30px;
+font-size:18px;
+border-radius:5px;
+transition:0.3s;
+}
+
+.book_btn:hover{
+background: #ff4400;
+}
+
+
+
+/* footer */
+
+footer i{
+font-size:22px;
+margin:10px;
+cursor:pointer;
+}
+
+footer i:hover{
+color:#c9a227;
+}
+.footer_heading{
+    font-family:"DM Serif Display", serif;
+    font-size: 35px;
+}
+
+.footer_para{
+    font-family:"Cormorant Infant", serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 990px){
+
+    .navbar-collapse{
+        position: absolute;
+         top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(246, 246, 246, 0.92);
+         backdrop-filter: blur(8px);
+        
+       /*  padding-top: 1rem; */
+        margin-top: 5.6rem; 
+        z-index: 9999;
+    }
+
+}
+/* Mobile menu items ke beech black border */
+@media screen and (max-width: 990px) {
+  .navbar-collapse .nav-item {
+    width: 100%;
+    
+  }
+}
+
+.overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:800px;
+background:rgba(0, 0, 0, 0.226);
+}
+
+/* slideimg */
+@media (max-width:576px){
+
+.slide_img h1{
+    font-size:45px;
+    width:90%;
+    line-height:1.4;
+    top:27rem;
+}
+
+.slide_img h4{
+    font-size:30px;
+    width:90%;
+    top:39rem;
+}
+
+}
+
+
+
+/* ========================================================about section============================================================ */
+
+.about_img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+     position: relative;
+}
+.about_img h1{
+    position: absolute;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+     text-align: center;
+     max-width:700px;
+margin:auto;
+  font-family:"DM Serif Display", serif;
+}
+
+@media (max-width:1024px){
+
+.about_img h1{
+font-size:50px;
+top: 90%;
+}
+
+
+
+}
+
+
+.experience{
+background:#fff6ef;
+}
+
+.exp_box{
+padding:30px;
+}
+
+.exp_box h2{
+font-size:45px;
+color:#ff4400;
+font-weight:bold;
+}
+
+.exp_box p{
+font-size:18px;
+}
+
+
+/* package Details */
+.package h1{
+    font-family:"DM Serif Display", serif;
+}
+.package p{
+     font-family:"Cormorant Infant", serif;
+      font-size: 30px;
+
+}
+.package-card{
+border:1px solid #ddd;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+background:white;
+}
+
+.package-card h3{
+margin-bottom:10px;
+font-family:"DM Serif Display", serif;
+}
+
+.price{
+font-size:28px;
+font-weight:bold;
+margin:10px 0;
+}
+
+.package-card ul{
+list-style:none;
+padding:0;
+}
+
+.package-card ul li{
+padding:5px 0;
+ font-family:"Cormorant Infant", serif;
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.btn-book{
+background:#ff6a00;
+color:white;
+padding:8px 20px;
+border-radius:5px;
+text-decoration:none;
+}
+.btn-book:hover{
+    background-color: orangered;
+}
+
+.package-card{
+    border:1px solid #ddd;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+background:white;
+     transition:0.4s;
+     margin-bottom:25px;
+       
+}
+.package-card:hover{
+transform: translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.line{
+    width: 80%;
+font-size: 20px;
+font-weight: 500;
+}
+.package_test{
+      font-family: "Cormorant Infant", serif;
+      font-weight: 700;
+      font-size: 25px;
+     
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card{
+    background-color:rgba(173, 216, 230, 0.26);
+    text-align: left;
+     font-family: "Cormorant Infant", serif;
+     font-size: 20px !important;
+     font-weight: 400;
+     
+}
+
+
+
+
+/* visit office */
+
+.visit-office{
+background:#f5e7dc;
+}
+.office_text h1{
+font-family:"DM Serif Display", serif;
+font-weight: 200;
+font-size: 45px !important;
+color: #212020;
+}
+.office_text p{
+    
+     font-family: "Cormorant Infant", serif;
+     font-size: 30px !important;
+}
+.office,
+.office1{
+border:1px solid #ccc;
+padding:25px;
+border-radius:10px;
+}
+.office1 iframe{
+border-radius:10px;
+}
+
+.visit-office h1{
+font-size:40px;
+font-weight:600;
+}
+
+.visit-office h4{
+margin-top:20px;
+font-weight:600;
+ font-family: "Cormorant Infant", serif;
+}
+.visit-office p{
+     font-family: "Cormorant Infant", serif;
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.visit-office iframe{
+border-radius:10px;
+}
+
+
+/* contact */
+.contact_section{
+background:#fff6ef;
+}
+
+.contact_box{
+border:1px solid #ddd;
+padding:25px;
+border-radius:10px;
+}
+
+.contact_box i{
+font-size:22px;
+cursor:pointer;
+}
+
+.office p{
+    font-family: "Cormorant Infant", serif;
+    font-size: 20px;
+}
+.office h4{
+    font-family:"DM Serif Display", serif;
+    font-size: 25px;
+}
+
+}
+.nav-brand:hover{
+
+}
+.navbar-brand img{
+    height: 100px;
+    width: 150px;
+}
+ .nav-icon{
+    height: 40px;
+   
+ }
+.container-fluid{
+  background: transparent;
+height:80px;
+box-shadow:none;
+}
+
+.nav-link{
+    margin: 1rem;
+   
+}
+ .buttan {
+    margin-right: 3rem;
+    padding: 16px;
+    
+ }
+
+.navbar-nav{
+    margin: auto;
+    text-align: center;
+     font-family: "Fanwood Text", serif;
+}
+.navbar-nav .nav-link{
+position: relative;
+color:#1a1a1a;;
+font-weight: 500;
+padding: 8px 15px;
+}
+
+.navbar-nav .nav-link::after{
+content:"";
+position:absolute;
+left:50%;
+bottom:0;
+width:0;
+height:3px;
+background:#f05609;
+transition:0.3s;
+transform:translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after{
+width:70%;
+background-color:#f05609;
+
+}
+.navbar-nav .nav-link:hover{
+    color: #f05609;
+}
+
+  @media (min-width: 992px) {
+  .navbar-nav {
+   
+    flex-direction: row;
+    
+  }
+   .nav-link {
+   
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+}
+
+
+/* slide */
+.slide_img img{
+ width: 100%;
+ height: 800px;
+ object-fit: cover;
+ position: relative;
+}
+.slide_img h1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+     text-align: center;
+     max-width:700px;
+margin:auto;
+           font-family: "Dancing Script", cursive;
+}
+.slide_img h4{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    font-size: 30px;
+     text-align: center;
+          font-family: "Cormorant Infant", serif;
+}
+@media (max-width:768px){
+    .slide_img img{
+      
+        height: 800px;
+        object-fit: cover;
+    }
+    
+}
+
+@media (max-width:1024px){
+
+.slide_img h1{
+    font-size:45px;
+    width:90%;
+    line-height:1.3;
+    top:33rem;
+}
+
+.slide_img h4{
+    font-size:24px;
+    width:95%;
+    top:38rem;
+}
+
+}
+
+/* section 1 */
+.photographer img{
+    height: 30rem;
+    width: 30rem;
+    
+    object-fit: cover;
+    object-position: top;
+   /*  filter: drop-shadow(1px 1px 20px gray); */
+   background-size: 100% 100%;
+   box-shadow: 20px 20px 10px rgb(172, 171, 171);
+   animation: slider 10s liner infinite;
+   
+}
+
+.photographer_text h1{
+    font-family:"DM Serif Display", serif;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 45px;
+}
+
+.photographer_text p{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 1rem;
+
+}
+
+/* section 1 responsive */
+@media (max-width:768px){
+
+.photographer img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+}
+
+}
+@media (max-width:1024px){
+
+.photographer{
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+.photographer img{
+    display:block;
+    margin:auto;
+}
+
+.photographer_text{
+    margin-top:2rem;
+    
+}
+
+}
+/* services */
+.services{
+background:#f8f5f0;
+}
+
+.service_heading{
+font-family:"DM Serif Display", serif;
+font-size: 43px;
+}
+.container h1::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+     margin: 8px auto 0;
+    margin-bottom: 15px; 
+    background-color: orangered;
+}
+.service_para{
+       font-family: "Fanwood Text", serif;
+       font-size: 25px;
+}
+.service_card{
+padding:30px;
+background:white;
+
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.4s;
+}
+
+.service_card i{
+font-size:40px;
+color:#f05609;
+margin-bottom:15px;
+}
+
+
+.service_card:hover i{
+transform:scale(1.2);
+transition:0.3s;
+}
+
+.service_card h3{
+font-size:22px;
+margin-bottom:10px;
+font-family:"DM Serif Display", serif;
+}
+.service_card p{
+    
+    font-family: "Cormorant Infant", serif;
+    font-size: 20px;
+}
+.service_card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* section 2 */
+/* section 2 */
+.gallery_text{
+    text-align: center;
+  
+}
+.gallery_text h1{
+     font-family:"DM Serif Display", serif;
+     font-size: 45px;
+}
+.gallery_text h3{
+     font-family: "Cormorant Infant", serif;
+}
+.gallery_text h1::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+     margin: 8px auto 0;
+    margin-bottom: 15px; 
+    background-color:orangered;
+}
+
+
+
+
+
+
+.card-box{
+position:relative;
+overflow:hidden;
+border-radius:10px;
+}
+
+.card-box img{
+width:100%;
+height:450px;
+object-fit:cover;
+display:block;
+
+}
+
+/* overlay curtain */
+.card-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+
+background:linear-gradient(135deg,
+rgba(243, 241, 240, 0.6),
+rgba(255, 68, 0, 0.6));
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+color:white;
+
+transform:scale(0) rotate(0deg);
+transform-origin: bottom left;
+
+transition:0.6s ease;
+}
+
+.card-box:hover .card-overlay{
+transform:scale(1) rotate(360deg);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.card-overlay h3{
+font-size:30px;
+margin-bottom:8px;
+transform:translateY(-20px);
+transition:0.5s;
+ font-family:"DM Serif Display", serif;
+}
+.card-overlay h4{
+transform:translateY(20px);
+transition:0.5s;
+   font-family:"DM Serif Display", serif;
+   margin-bottom: 8px;
+  font-size: 22px;
+}
+.card-overlay p{
+transform:translateY(20px);
+transition:0.5s;
+   font-family: "Cormorant Infant", serif;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+
+.card-box:hover h3,
+.card-box:hover p{
+transform:translateY(0);
+}
+
+@media (max-width:1024px){
+
+.card-overlay{
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+transform: scale(1) rotate(0deg);
+opacity:1;
+
+}
+
+}
+
+
+/* section 3 */
+.div_card{
+    padding-top: 0px;
+}
+
+.baground_img img{
+    width: 100%;
+    height:37rem;
+    object-fit: cover;
+}
+
+.baground_img{
+    position: relative;
+}
+
+.baground_img img{
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.card_text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(23, 22, 22);
+    text-align: center;
+    font-family:"DM Serif Display", serif;
+
+}
+
+.card_text h1{
+    font-size: 50px;
+    
+}
+.card_text h1::after{
+    content: "";
+    display: block;
+    width: 180px;
+    height: 4px;
+     margin: 8px auto 0;
+    margin-bottom: 15px; 
+    background-color: orangered;
+}
+.card1_icon{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+   
+    border: 2px solid rgb(227, 123, 12);
+     border-radius: 50%; 
+   transform: translate(-50%,-50%);
+     position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: #f8f5f0;
+   
+}
+.card1{
+    border: 2px solid black;
+      position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    /*  box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
+
+}
+
+.card1{
+    font-size: 20px;
+padding: 24px; 
+  box-shadow: 0px 2px 10px  rgb(113, 113, 113);
+  transition:0.4s;
+  border-radius: 10px;
+  padding-top: 30px;
+   font-family: "Fanwood Text", serif;
+}
+
+.card1:hover{
+transform: translate(-50%, -55%);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.card2_icon{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+   
+    border: 2px solid rgb(227, 123, 12);
+     border-radius: 50%; 
+   transform: translate(-50%,-50%);
+     position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: #f8f5f0;
+}
+.card2{
+    border: 2px solid black;
+      position: absolute;
+      transition:0.4s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.card2{
+    font-size: 20px;
+padding: 20px;
+ box-shadow: 0px 2px 10px  rgb(113, 113, 113);
+  border-radius: 10px;
+  padding-top: 30px;
+  
+   font-family: "Fanwood Text", serif;
+}
+
+.card2:hover{
+transform: translate(-50%, -55%);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.card3_icon{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+   
+    border: 2px solid rgb(227, 123, 12);
+     border-radius: 50%; 
+   transform: translate(-50%,-50%);
+     position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: #f8f5f0;
+}
+.card3{
+    border: 2px solid black;
+      position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    transition:0.4s;
+
+}
+
+.card3{
+    font-size: 20px;
+padding: 20px; 
+ box-shadow: 0px 2px 10px  rgb(113, 113, 113);
+  border-radius: 10px;
+  padding-top: 30px;
+   font-family: "Fanwood Text", serif;
+}
+
+.card3:hover{
+transform: translate(-50%, -55%);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card1:hover i,
+.card2:hover i,
+.card3:hover i{
+transform:scale(1.2);
+transition:0.3s;
+}
+/* ===== Tablet ===== */
+@media (max-width:1024px){
+
+.baground_img img{
+height:85rem;   /* image height bada di */
+}
+
+.card1{
+top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.card2{
+top:55%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.card3{
+top:80%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+}
+
+
+/* ===== Mobile ===== */
+@media (max-width:576px){
+
+.baground_img img{
+height:100rem;   /* mobile me aur height */
+}
+
+.card1{
+top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+}
+
+.card2{
+top:55%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+}
+
+.card3{
+top:80%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+}
+
+}
+
+/* section 6 */
+
+.booking_section{
+position:relative;
+background:url("./image/weddingPose.png") center/cover no-repeat;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.booking_overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+}
+
+.booking_content{
+position:relative;
+color:white;
+max-width:700px;
+}
+
+.booking_content h1{
+font-size:45px;
+font-family:"DM Serif Display", serif;
+}
+
+.booking_content p{
+font-size:20px;
+font-family:"Cormorant Infant", serif;
+margin:20px 0;
+}
+
+.book_btn{
+background: #f05609;
+color:white;
+border:none;
+padding:12px 30px;
+font-size:18px;
+border-radius:5px;
+transition:0.3s;
+}
+
+.book_btn:hover{
+background: #ff4400;
+}
+
+
+
+/* footer */
+
+footer i{
+font-size:22px;
+margin:10px;
+cursor:pointer;
+}
+
+footer i:hover{
+color:#c9a227;
+}
+.footer_heading{
+    font-family:"DM Serif Display", serif;
+    font-size: 35px;
+}
+
+.footer_para{
+    font-family:"Cormorant Infant", serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 990px){
+
+    .navbar-collapse{
+        position: absolute;
+         top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(246, 246, 246, 0.92);
+         backdrop-filter: blur(8px);
+        
+       /*  padding-top: 1rem; */
+        margin-top: 5.6rem; 
+        z-index: 9999;
+    }
+
+}
+/* Mobile menu items ke beech black border */
+@media screen and (max-width: 990px) {
+  .navbar-collapse .nav-item {
+    width: 100%;
+    
+  }
+}
+
+.overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:800px;
+background:rgba(0, 0, 0, 0.226);
+}
+
+/* slideimg */
+@media (max-width:576px){
+
+.slide_img h1{
+    font-size:45px;
+    width:90%;
+    line-height:1.4;
+    top:27rem;
+}
+
+.slide_img h4{
+    font-size:30px;
+    width:90%;
+    top:39rem;
+}
+
+}
+
+
+
+/* ========================================================about section============================================================ */
+
+.about_img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+     position: relative;
+}
+.about_img h1{
+    position: absolute;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+     text-align: center;
+     max-width:700px;
+margin:auto;
+  font-family:"DM Serif Display", serif;
+}
+
+@media (max-width:1024px){
+
+.about_img h1{
+font-size:50px;
+top: 90%;
+}
+
+
+
+}
+
+
+.experience{
+background:#fff6ef;
+}
+
+.exp_box{
+padding:30px;
+}
+
+.exp_box h2{
+font-size:45px;
+color:#ff4400;
+font-weight:bold;
+}
+
+.exp_box p{
+font-size:18px;
+}
+
+
+/* package Details */
+.package h1{
+    font-family:"DM Serif Display", serif;
+}
+.package p{
+     font-family:"Cormorant Infant", serif;
+      font-size: 30px;
+
+}
+.package-card{
+border:1px solid #ddd;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+background:white;
+}
+
+.package-card h3{
+margin-bottom:10px;
+font-family:"DM Serif Display", serif;
+}
+
+.price{
+font-size:28px;
+font-weight:bold;
+margin:10px 0;
+}
+
+.package-card ul{
+list-style:none;
+padding:0;
+}
+
+.package-card ul li{
+padding:5px 0;
+ font-family:"Cormorant Infant", serif;
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.btn-book{
+background:#ff6a00;
+color:white;
+padding:8px 20px;
+border-radius:5px;
+text-decoration:none;
+}
+.btn-book:hover{
+    background-color: orangered;
+}
+
+.package-card{
+    border:1px solid #ddd;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+background:white;
+     transition:0.4s;
+     margin-bottom:25px;
+       
+}
+.package-card:hover{
+transform: translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.line{
+    width: 80%;
+font-size: 20px;
+font-weight: 500;
+}
+.package_test{
+      font-family: "Cormorant Infant", serif;
+      font-weight: 700;
+      font-size: 25px;
+     
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card{
+    background-color:rgba(173, 216, 230, 0.26);
+    text-align: left;
+     font-family: "Cormorant Infant", serif;
+     font-size: 20px !important;
+     font-weight: 400;
+     
+}
+
+
+
+
+/* visit office */
+
+.visit-office{
+background:#f5e7dc;
+}
+.office_text h1{
+font-family:"DM Serif Display", serif;
+font-weight: 200;
+font-size: 45px !important;
+color: #212020;
+}
+.office_text p{
+    
+     font-family: "Cormorant Infant", serif;
+     font-size: 30px !important;
+}
+.office,
+.office1{
+border:1px solid #ccc;
+padding:25px;
+border-radius:10px;
+}
+.office1 iframe{
+border-radius:10px;
+}
+
+.visit-office h1{
+font-size:40px;
+font-weight:600;
+}
+
+.visit-office h4{
+margin-top:20px;
+font-weight:600;
+ font-family: "Cormorant Infant", serif;
+}
+.visit-office p{
+     font-family: "Cormorant Infant", serif;
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.visit-office iframe{
+border-radius:10px;
+}
+
+
+/* contact */
+.contact_section{
+background:#fff6ef;
+}
+
+.contact_box{
+border:1px solid #ddd;
+padding:25px;
+border-radius:10px;
+}
+
+.contact_box i{
+font-size:22px;
+cursor:pointer;
+}
+
+.office p{
+    font-family: "Cormorant Infant", serif;
+    font-size: 20px;
+}
+.office h4{
+    font-family:"DM Serif Display", serif;
+    font-size: 25px;
+}
